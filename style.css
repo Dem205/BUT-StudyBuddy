@@ -1,0 +1,138 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #333;;
+  margin: 0;
+  padding: 2rem;
+  line-height: 1.6;
+}
+.logo{
+  text-align: center;
+}
+
+h1, h2 {
+  color: #2c3e50;
+}
+
+.auth-section{
+  margin: auto;
+}
+
+/* From Uiverse.io by iSweat-exe */ 
+.container {
+  width: 100%;
+  height: 100%;
+  /* Add your background pattern here */
+  background: conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0),
+    conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) 60px 60px,
+    conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) calc(2 * 60px)
+      calc(2 * 60px),
+    conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) calc(3 * 60px)
+      calc(3 * 60px),
+    repeating-linear-gradient(135deg, #adafff 0 12.5%, #474bff 0 25%);
+  background-size: calc(4 * 60px) calc(4 * 60px);
+}
+
+
+.auth-section-2{
+  padding: 30px;
+}
+
+section#profile-section{
+  padding: 30px;
+  margin: auto;
+}
+
+section {
+  background: white;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  max-width: 500px;
+}
+
+select{
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+button{
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+input{
+  display: block;
+  width: calc(100% - 1.7rem);
+  padding: 0.75rem;
+  margin-bottom: 10px;
+}
+
+.beta{
+  background-color: hsl(163, 100%, 81%);
+  display: inline-block;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  color: #006448;
+  font-weight: 600;
+}
+
+button {
+  background: #007e5a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #297fb900;
+  color: black;
+  border: 1px solid black;
+}
+
+.match-card {
+  border: 1px solid #e0e0e0;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  background: #fafafa;
+}
+
+.match-card {
+  background: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 1rem 1.5rem;
+  margin: 1rem 0;
+  transition: transform 0.2s ease;
+  border-left: 6px solid #4f46e5;
+}
+
+.match-card:hover {
+  transform: translateY(-3px);
+}
+
+.match-card strong {
+  font-size: 1.2rem;
+  color: #4f46e5;
+}
+
+.match-card span {
+  display: block;
+  margin: 4px 0;
+  color: #333;
+}
+
