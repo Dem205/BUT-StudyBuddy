@@ -42,6 +42,7 @@ section#profile-section{
   margin: auto;
 }
 
+/*mobile*/
 section {
   background: white;
   margin-bottom: 2rem;
@@ -49,6 +50,28 @@ section {
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
   max-width: 500px;
 }
+
+/*tablet*/
+@media (min-width:600px){
+section {
+    background: white;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    max-width: 1000px;
+  }
+}
+
+/*Desktop*/
+@media (min-width:992px){
+    section {
+        background: white;
+        margin-bottom: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        max-width: 1500px;
+      }
+    }
 
 select{
   display: block;
@@ -61,22 +84,124 @@ select{
   font-size: 1rem;
 }
 
-button{
-  display: block;
-  width: 100%;
-  padding: 0.75rem;
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  font-size: 1rem;
+/*mobile*/
+@media (max-width:600px){
+    button{
+      display: block;
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+    }
+/*tablet*/
+@media (min-width:600px){
+    button{
+        display: block;
+        width: 100%;
+        padding: 0.75rem;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 1rem;
+    }
+}
+/*desktop*/
+@media (min-width:992px){
+    button{
+      display: block;
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+  }
+
+/*mobile*/
+@media (max-width:600px){
+    input{
+        display: block;
+        width: calc(100%);
+        padding: 0.75rem;
+        margin-bottom: 10px;
+    }
+}
+/*tablet*/
+@media (min-width:600px){
+    input{
+      display: block;
+      width: calc(100%);
+      padding: 0.75rem;
+      margin-bottom: 10px;
+    
+    }
+
+}
+/*desktop*/
+@media (min-width:992px){
+    input{
+      display: block;
+      width: calc(100% - 2rem);
+      padding: 0.75rem;
+      margin-bottom: 10px;
+    }
 }
 
-input{
-  display: block;
-  width: calc(100% - 1.7rem);
-  padding: 0.75rem;
-  margin-bottom: 10px;
+/*tablet*/
+@media (min-width:600px){
+.con{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+
+}
+}
+
+/*Desktop*/
+@media (min-width:992px){
+    .con{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5px;
+    
+    }
+}
+
+/*tablet*/
+@media (min-width:600px){
+  img{
+    max-width: 100%;
+    height: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: 5%;
+   }
+}
+
+/*Desktop*/
+@media (min-width:992px){
+    img{
+        max-width: 100%;
+        height: 100%;
+        padding: 0.75rem;
+      border-radius: 5%;
+      
+    }
+}
+    /*mobile*/
+@media (max-width:600px){
+    img{
+        display: none;
+    }
 }
 
 .beta{
